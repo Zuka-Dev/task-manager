@@ -1,0 +1,17 @@
+//global styles and changing bulma vairables
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Nunito:wght@400;700&display=swap');
+
+$family-san-serif: san-serif;
+$input-border-color: transparent;
+$control-border-width: 2px;
+$input-shadow:none;
+
+html, body {
+    height: 100%
+}
+html{
+    background-image: url('./assets/bgimage.png');
+    background-size: cover;
+    overflow-y: auto !important;
+}
